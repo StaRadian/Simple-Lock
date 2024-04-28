@@ -1,0 +1,145 @@
+(footprint "Reset Switch"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.985 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30579a0d-1b9c-4494-8f93-81b870d9bb07")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "Reset Switch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b239e18-ca6c-4c00-854b-93f6d24f47ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "660a2312-ab15-415b-9c45-7812c7625236")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "663005da-416d-45a4-97f9-d39f6bfecf72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b962803-2e66-419a-b839-7d03d5e729d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.775 -6.25)
+		(end 2.775 6.25)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "db796073-fd62-4c42-bca7-a6b969d89e76")
+	)
+	(fp_rect
+		(start -1.45 -2.55)
+		(end 1.45 -1.35)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4b04e7ef-dbc8-43f3-a625-debc45795192")
+	)
+	(fp_circle
+		(center 0 5.08)
+		(end 0.5 5.08)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "50a7a6d1-3ac7-458d-b9b1-e1665c6d92fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec1196f5-515c-4493-bba4-1f0f575fc5fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -5.08)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.2)
+		(chamfer top_left)
+		(uuid "2aa31daa-c641-4a4f-8985-e739aeb04aa9")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "39ec32cf-4cf4-421e-b450-e75f4736aac4")
+	)
+	(model "C:/Workspace/Project/MAZE_m4_red/HW/KiCAD/MAZE_m4_red_0.0/Library/3D/DM1-01P-30-3.STEP"
+		(offset
+			(xyz -2.85 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
